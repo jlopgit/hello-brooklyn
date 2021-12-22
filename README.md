@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Hello Brooklyn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a sample react implementation of a loader that retrieves several data from several endpoints.
 
 ## Available Scripts
 
