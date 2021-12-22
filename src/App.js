@@ -78,45 +78,6 @@ class App extends React.Component{
       let line = document.createElement("hr");
       tile.appendChild(line);
 
-      //navigation section of the article
-      /*nav = document.createElement("div");
-      nav.setAttribute("id", "article-nav");
-
-      for(let i = 0; i < 3; i++){
-
-        switch(i){
-          case 0:
-            text = document.createTextNode("Player News");
-            link = document.createElement("a");
-            link.setAttribute("href", "#")
-            link.setAttribute("id", "nav-news");
-            //link.addEventListener("click", ()=>{this.showItem(i)});
-            link.appendChild(text);
-            nav.appendChild(link);
-            break;
-          case 1:
-            text = document.createTextNode("Player Average");
-            link = document.createElement("a");
-            link.setAttribute("href", "#")
-            link.setAttribute("id", "nav-average");
-            link.addEventListener("click", ()=>{this.showItem(i)});
-            link.appendChild(text);
-            nav.appendChild(link);
-            break;
-          case 2:
-            text = document.createTextNode("Season Total");
-            link = document.createElement("a");
-            link.setAttribute("href", "#")
-            link.setAttribute("id", "nav-total");
-            //link.addEventListener("click", ()=>{this.showItem(i)});
-            link.appendChild(text);
-            nav.appendChild(link);
-            break;
-        }
-      }
-
-      tile.appendChild(nav);*/
-
       //table section
       averageTable = document.createElement("table");
       averageTable.setAttribute("id", "average-table");
@@ -190,25 +151,7 @@ class App extends React.Component{
     }
 
   }
-
-  /*showItem = (num) =>{
-    let item, temp;
-
-    switch(num){
-      case 0:
-
-        break;
-      case 1:
-        item = document.getElementById("average-table");
-        item.style.display = "table";
-        break;
-      case 2:
-        item = document.getElementById("total-table");
-        item.style.display = "table";
-        break;
-    }
-  }*/
-
+  
   render(){
 
     return(
